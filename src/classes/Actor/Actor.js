@@ -6,8 +6,7 @@ class Actor {
   stamina = 1;
   maxStamina = 1;
 
-  constructor(id, img, name) {
-    this.id = id;
+  constructor(img, name) {
     this.name = name;
     this.img = img;
     this.state = {

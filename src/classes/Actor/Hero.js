@@ -2,7 +2,8 @@ import Actor from "@/classes/Actor/Actor";
 
 class Hero extends Actor {
   constructor(id, img, name, str, dex, con) {
-    super(id, img, name);
+    super(img, name);
+    this.id = id;
     this.str = str;
     this.dex = dex;
     this.con = con;

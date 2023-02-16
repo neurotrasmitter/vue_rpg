@@ -24,6 +24,7 @@ const routes = [
     path: "/battle",
     name: "battle",
     component: BattleView,
+    props: { location: "forestLocationStorage" },
   },
 ];
 
